@@ -1,0 +1,7 @@
+services:
+  app-service:
+    image: app-service:latest
+    container_name: app-container
+    ports:
+      - "8080:8080"
+    restart: always
